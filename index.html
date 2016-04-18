@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MDEdit</title>
+    
+    <link rel="stylesheet" href="node_modules/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="node_modules/codemirror/theme/monokai.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="panels">
+      <div class="left-panel">
+        <textarea name="editor" id="editor"></textarea>
+      </div>
+      <div class="right-panel" id="preview">
+      </div>
+    </div>
+    
+    <!-- Vendor -->
+    <script type="text/javascript" src="node_modules/codemirror/lib/codemirror.js"></script>
+    <script type="text/javascript" src="node_modules/codemirror/mode/markdown/markdown.js"></script>
+    <script type="text/javascript" src="node_modules/markdown/lib/markdown.js"></script>
+    <!-- App -->
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
